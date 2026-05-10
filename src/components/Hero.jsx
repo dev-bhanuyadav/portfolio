@@ -25,7 +25,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-slate-600 max-w-xl mx-auto lg:mx-0 text-lg md:text-xl mt-6 leading-relaxed">
-            I'm a Junior Web Developer specializing in building exceptional digital experiences. 
+            I'm a Web Developer specializing in building exceptional digital experiences. 
             Currently, I'm focused on creating accessible, human-centered products using 
             <span className="text-slate-900 font-semibold"> React, Node.js & Firebase</span>.
           </p>
