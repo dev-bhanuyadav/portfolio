@@ -3,23 +3,14 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Frontend Developer',
-      company: 'Studio X',
+      title: 'Founder & Lead Developer',
+      company: 'Websevix',
       date: '2023 - Present',
       description: [
-        'Spearheaded the development of a design system used across 4 internal products.',
-        'Migrated legacy jQuery codebase to React/Next.js, improving load times by 40%.',
-        'Implemented complex animations for the flagship landing page.'
-      ]
-    },
-    {
-      title: 'Web Developer Intern',
-      company: 'Tech Solutions Inc.',
-      date: '2022 - 2023',
-      description: [
-        'Collaborated with designers to build accessible, responsive components.',
-        'Wrote unit tests using Jest and React Testing Library, achieving 85% coverage.',
-        'Integrated RESTful APIs using Node.js and Express.'
+        'Founded and leading Websevix, a premium digital solutions agency.',
+        'Spearheading the development of high-performance web applications and custom design systems.',
+        'Architecting scalable frontend solutions using React, Next.js, and modern CSS frameworks.',
+        'Managing client projects from conceptualization to deployment, ensuring exceptional UX/UI.'
       ]
     }
   ];
