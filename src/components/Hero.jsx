@@ -8,7 +8,11 @@ const Hero = () => {
       <div className="absolute top-1/4 -right-20 w-96 h-96 bg-accent-500/15 rounded-full filter blur-[100px] animate-blob z-0"></div>
       <div className="absolute top-1/3 -left-20 w-[30rem] h-[30rem] bg-orange-400/15 rounded-full filter blur-[120px] animate-blob animation-delay-2000 z-0"></div>
       <div className="absolute -bottom-32 left-1/2 w-96 h-96 bg-yellow-400/15 rounded-full filter blur-[100px] animate-blob animation-delay-4000 z-0"></div>
-      
+      {/* Background Watermark Icon (Low Intensity) */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl aspect-square opacity-[0.03] pointer-events-none z-0">
+        <img src="/icon1.png" alt="" className="w-full h-full object-contain grayscale" />
+      </div>
+
       <div className="w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-16 z-10 relative">
         <div className="flex-1 space-y-6 text-center lg:text-left">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-slate-900 leading-tight">
@@ -38,13 +42,6 @@ const Hero = () => {
           </div>
         </div>
         
-        {/* Next-Level Avatar for Light Theme */}
-      {/* Background Watermark Icon (Low Intensity) */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl aspect-square opacity-[0.03] pointer-events-none z-0">
-        <img src="/icon1.png" alt="" className="w-full h-full object-contain grayscale" />
-      </div>
-
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative z-10">
         {/* Main Icon - Hidden on Mobile, Visible on Tablet/Desktop */}
         <div className="relative w-64 h-64 md:w-80 md:h-80 shrink-0 animate-float lg:ml-10 hidden md:block">
           <div className="absolute inset-0 bg-gradient-to-tr from-accent-500 to-orange-300 rounded-3xl rotate-6 opacity-40 blur-xl"></div>
