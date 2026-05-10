@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 flex flex-col items-center relative z-10">
         {/* Social Links for Desktop and Mobile Footer */}
         <div className="flex gap-8 mb-8">
-          <a href="#" className="text-slate-500 hover:text-accent-500 hover:-translate-y-1 transition-all duration-300" aria-label="GitHub">
+          <a href="https://github.com/dev-bhanuyadav" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-accent-500 hover:-translate-y-1 transition-all duration-300" aria-label="GitHub">
             <Github size={22} />
           </a>
           <a href="#" className="text-slate-500 hover:text-accent-500 hover:-translate-y-1 transition-all duration-300" aria-label="LinkedIn">
