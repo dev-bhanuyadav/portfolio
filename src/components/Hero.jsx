@@ -39,7 +39,14 @@ const Hero = () => {
         </div>
         
         {/* Next-Level Avatar for Light Theme */}
-        <div className="relative w-64 h-64 md:w-80 md:h-80 shrink-0 animate-float lg:ml-10">
+      {/* Background Watermark Icon (Low Intensity) */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl aspect-square opacity-[0.03] pointer-events-none z-0">
+        <img src="/icon1.png" alt="" className="w-full h-full object-contain grayscale" />
+      </div>
+
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-12 relative z-10">
+        {/* Main Icon - Hidden on Mobile, Visible on Tablet/Desktop */}
+        <div className="relative w-64 h-64 md:w-80 md:h-80 shrink-0 animate-float lg:ml-10 hidden md:block">
           <div className="absolute inset-0 bg-gradient-to-tr from-accent-500 to-orange-300 rounded-3xl rotate-6 opacity-40 blur-xl"></div>
           <div className="absolute inset-0 border-2 border-accent-500/20 rounded-3xl translate-x-4 translate-y-4 transition-transform hover:translate-x-2 hover:translate-y-2"></div>
           <div className="absolute inset-0 bg-white backdrop-blur-md rounded-3xl flex items-center justify-center border border-white shadow-2xl overflow-hidden group hover:-translate-y-2 hover:rotate-0 transition-all duration-500 z-10 rotate-6">
